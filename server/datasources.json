@@ -1,6 +1,11 @@
 {
   "db": {
     "name": "db",
-    "connector": "memory"
+    "connector": "mysql",
+    "host": "demo.strongloop.com",
+    "port": 3306,
+    "database": "classicmodels",
+    "username": "root",
+    "password": "root"
   }
 }
