@@ -1,14 +1,15 @@
 {
   "name": "customers",
   "base": "PersistedModel",
-  "idInjection": true,
+  "idInjection": false,
   "options": {
     "validateUpsert": true
   },
   "properties": {
     "customerNumber": {
       "type": "number",
-      "required": false
+      "required": false,
+      "id": true
     },
     "customerName": {
       "type": "string",
