@@ -8,7 +8,7 @@
   "properties": {
     "customerNumber": {
       "type": "number",
-      "required": true
+      "required": false
     },
     "customerName": {
       "type": "string",
